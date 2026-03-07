@@ -1,8 +1,7 @@
-﻿:root {
+:root {
   --bg: #f5f8ff;
 }
 
-<<<<<<< HEAD
 /* Background image with blur effect */
 body {
   margin: 0;
@@ -63,11 +62,6 @@ body::after {
 /* Container styling */
 .container, .container-fluid {
   position: relative;
-=======
-body {
-  background: linear-gradient(180deg, #f8fbff 0%, var(--bg) 100%);
-  min-height: 100vh;
->>>>>>> efa04fab56a99b2fd817ec62ef51439cb528ec9a
 }
 
 .container-narrow {

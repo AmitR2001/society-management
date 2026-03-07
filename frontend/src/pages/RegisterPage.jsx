@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 import { useState } from 'react';
-=======
-﻿import { useState } from 'react';
->>>>>>> efa04fab56a99b2fd817ec62ef51439cb528ec9a
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 

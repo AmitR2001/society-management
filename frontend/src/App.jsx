@@ -1,15 +1,8 @@
-<<<<<<< HEAD
 import { Route, Routes, Navigate } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import { useAuth } from './context/AuthContext';
 import ProtectedRoute from './routes/ProtectedRoute';
 import HomePage from './pages/HomePage';
-=======
-﻿import { Route, Routes, Navigate } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import { useAuth } from './context/AuthContext';
-import ProtectedRoute from './routes/ProtectedRoute';
->>>>>>> efa04fab56a99b2fd817ec62ef51439cb528ec9a
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 import VerifyEmailPage from './pages/VerifyEmailPage';
@@ -43,28 +36,16 @@ const StaffRoute = ({ children }) => {
 };
 
 const App = () => (
-<<<<<<< HEAD
   <div style={{ minHeight: '100vh' }}>
     <Navbar />
     <main>
       <Routes>
         <Route path="/" element={<HomePage />} />
-=======
-  <div>
-    <Navbar />
-    <main className="container py-4">
-      <Routes>
-        <Route path="/" element={<Navigate to="/dashboard" />} />
->>>>>>> efa04fab56a99b2fd817ec62ef51439cb528ec9a
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/verify-email" element={<VerifyEmailPage />} />
         <Route path="/staff-login" element={<StaffLoginPage />} />
-<<<<<<< HEAD
         <Route path="/unauthorized" element={<div className="container py-4"><h4>Unauthorized</h4></div>} />
-=======
-        <Route path="/unauthorized" element={<h4>Unauthorized</h4>} />
->>>>>>> efa04fab56a99b2fd817ec62ef51439cb528ec9a
 
         {/* Staff routes */}
         <Route path="/staff-dashboard" element={<StaffRoute><StaffDashboardPage /></StaffRoute>} />

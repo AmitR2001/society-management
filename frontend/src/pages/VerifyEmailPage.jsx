@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 import { useEffect, useState, useRef } from 'react';
-=======
-﻿import { useEffect, useState, useRef } from 'react';
->>>>>>> efa04fab56a99b2fd817ec62ef51439cb528ec9a
 import { Link, useSearchParams } from 'react-router-dom';
 import api from '../services/api';
 

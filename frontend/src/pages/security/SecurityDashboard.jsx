@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 import { useEffect, useState } from 'react';
-=======
-﻿import { useEffect, useState } from 'react';
->>>>>>> efa04fab56a99b2fd817ec62ef51439cb528ec9a
 import StatCard from '../../components/StatCard';
 import api from '../../services/api';
 
